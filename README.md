@@ -82,7 +82,7 @@ argumenty:
 wynik:
 umieszczenie na ekranie głównym powierzchni z wygenerowanym tekstem na współrzędnych określonych w argumencie `pos`
 
-### Wygenerowanie tekstu z opcjonalnąilośćią znaków w linii i umieszczenie na głównym ekranie
+### Wygenerowanie tekstu z opcjonalną ilością znaków w linii i umieszczenie na głównym ekranie
 
 ```python
 renderByGridsX(
