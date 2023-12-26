@@ -127,6 +127,40 @@ myOwnFont = Font(
 
 ```python
 myDefaultFont.render(
-    message = "HELLO WORLD"
+    message = "ACCEPT CANCEL EXIT",
+    pos = ( 20, 20 )
+)
+
+myDefaultFontScale.render(
+    message = "HELLO WORLD",
+    pos = ( 100, 100 )
+)
+
+myOwnFont.render(
+    message = "HAPPY NEW YEAR 2024",
+    pos = ( 100, 150 )
+)
+
+myDefaultFontScale.render(
+    message = "MY NAME IS...",
+    pos = ( 200, 250 ),
+    align = ( 0, 0 ),
+    width = 200
+)
+
+myOwnFont.renderByGridsX(
+    message = "ABCDEFGHIJKL",
+    pos = ( 400, 300 ),
+    align = ( 0, -1 ),
+    gridsX = 3
+)
+
+myDefaultFontScale.renderByGridsX(
+    message = "ABCDEFGHIJKL",
+    pos = ( 500, 300 ),
+    align = ( 0, -1 ),
+    gridsX = 4
 )
 ```
+
+![Aplikacja](screen2.png)
