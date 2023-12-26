@@ -18,7 +18,6 @@ class App:
             alphabet = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
         )
         self.fontlight = Font(
-            font = 'fontlight',
             scale = 3
         )
         self.loop()
