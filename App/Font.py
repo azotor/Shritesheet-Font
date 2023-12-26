@@ -5,7 +5,7 @@ from App.Sprites import Sprites
 class Font:
     def __init__(
             self,
-            font: str = "fontmain",
+            font: str = "fontlight",
             width: int = 7,
             height: int = 8,
             scale: int = 1,
