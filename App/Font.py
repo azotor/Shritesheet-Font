@@ -27,7 +27,7 @@ class Font:
             w = math.ceil( len( message ) * self.width * self.scale / width )
             size[ 1 ] = w * self.height * self.scale
 
-        gridsX = width // ( self.height * self.scale )
+        gridsX = width // ( self.width * self.scale )
 
         surf = pygame.Surface( size ).convert_alpha()
         surf.fill( 'black' )
